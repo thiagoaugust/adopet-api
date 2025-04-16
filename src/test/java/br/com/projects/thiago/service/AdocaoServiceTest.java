@@ -1,7 +1,5 @@
 package br.com.projects.thiago.service;
 
-import br.com.alura.adopet.api.dto.*;
-import br.com.alura.adopet.api.model.*;
 import br.com.projects.thiago.dto.*;
 import br.com.projects.thiago.model.*;
 import br.com.projects.thiago.repository.AdocaoRepository;
@@ -17,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
